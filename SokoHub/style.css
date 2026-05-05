@@ -1,0 +1,227 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #f5f5f5;
+}
+
+header {
+  background: #0d6efd;
+  color: #eff5f1;
+  padding: 10px;
+}
+
+.logo {
+  margin: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input {
+  padding: 8px;
+}
+
+.actions {
+  text-align: center;
+  margin: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin: 5px;
+  border: 2px solid #0d6efd;
+  background: rgb(219, 102, 102);
+  cursor: pointer;
+}
+
+#products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  gap: 10px;
+  padding: 20px;
+}
+
+.product {
+  background: rgb(221, 97, 97);
+  padding: 10px;
+}
+
+footer {
+  background: black;
+  color: rgb(201, 52, 52);
+  text-align: center;
+  padding: 10px;
+}
+.box {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: white;
+}
+.product {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  background: #fff;
+}
+
+.whatsapp-btn {
+  display: inline-block;
+  margin-top: 10px;
+  background: #25D366;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.whatsapp-btn {
+  display: inline-block;
+  margin-top: 10px;
+  background: #25D366;
+  color: white;
+  padding: 10px 14px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.whatsapp-btn:hover {
+  background: #1ebe5d;
+}
+.whatsapp-btn {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 10px 14px;
+  background: #25D366;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+}.product {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+.wa-btn {
+  display: inline-block;
+  background: #25D366;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+/* ================= GLOBAL BUTTON STYLE ================= */
+button {
+  background-color: #0b9741;   /* kijani WhatsApp */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #1ebe5d;
+}
+
+/* ================= PRODUCT BOX ================= */
+.product {
+  border: 2px solid #2d09b1;
+  border-radius: 12px;
+  padding: 15px;
+  margin: 15px 0;
+  background-color: #f6fff8; /* light green */
+}
+
+/* ================= INPUT FIELDS ================= */
+input, textarea {
+  border: 2px solid #0ea515;
+  border-radius: 8px;
+  padding: 8px;
+  margin: 5px 0;
+  width: 30%;
+}
+
+/* ================= WHATSAPP BUTTON ================= */
+.wa-btn {
+  display: inline-block;
+  background: #059948;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.wa-btn:hover {
+  background: #1ebe5d;
+}
+
+/* ================= NAV BAR ================= */
+header {
+  background-color: #0c1caa;
+  color: white;
+  padding: 15px;
+}
+
+/* ================= MAIN BUTTON ================= */
+.main-btn {
+  background-color: #099644;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+/* ================= FOOTER ================= */
+footer {
+  background-color: #0a0711;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
+.product {
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}#products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+  padding: 10px;
+}
+.product {
+  background: white;
+  border-radius: 12px;
+  padding: 12px;
+  border: 1px solid #ddd;
+  transition: all 0.3s ease;
+}
+.product:hover {
+  transform: translateY(-5px);   /* inainuka juu */
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+.product img {
+  width: 100%;
+  border-radius: 10px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#search {
+  padding: 6px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}

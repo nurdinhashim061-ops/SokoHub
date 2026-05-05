@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="sw">
+
+<head>
+  <meta charset="UTF-8">
+  <title>SokoHub</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+</section>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+<header>
+  <div class="nav">
+
+    <div class="logo-section">
+      <h1 class="logo">🛒 SokoHub</h1>
+      <p class="tagline">Uza na nunua kwa urahisi Tanzania</p>
+    </div>
+
+    <input type="text" id="search" placeholder="Tafuta bidhaa...">
+
+    <div>
+      <button onclick="showLogin()">Login</button>
+      <button onclick="showRegister()">Register</button>
+      <button onclick="logout()">Logout</button>
+    </div>
+
+  </div>
+</header><section id="categories">
+  <button onclick="filterCategory('all')">All</button>
+  <button onclick="filterCategory('phones')">Phones</button>
+  <button onclick="filterCategory('clothes')">Clothes</button>
+  <button onclick="filterCategory('electronics')">Electronics</button>
+  <button onclick="filterCategory('cars')">Cars</button>
+
+<!-- ================= ACTIONS ================= -->
+<section class="actions">
+  <button class="main-btn">🚀 Anza Sasa</button>
+</section>
+
+<!-- ================= POST PRODUCT ================= -->
+<section id="postSection">
+  <h2>Post Bidhaa</h2>
+
+  <input type="text" id="title" placeholder="Jina la bidhaa">
+  <input type="number" id="price" placeholder="Bei">
+  <input type="file" id="image">
+  <textarea id="description" placeholder="Maelezo"></textarea>
+
+  <input type="text" id="whatsapp" placeholder="WhatsApp ya muuzaji (2557...)">
+
+  <button onclick="postProduct()">Post</button>
+</section>
+
+<!-- ================= PRODUCTS ================= -->
+<section id="products"></section>
+
+<!-- ================= FOOTER (MWISHO) ================= -->
+<footer>
+  <p>Email: nurdinhashim061@gmail.com</p>
+  <p>Simu: 0671020855</p>
+
+  <a href="https://wa.me/255748398745" target="_blank">
+    WhatsApp
+  </a>
+</footer>
+
+<!-- ================= JS ================= -->
+<script type="module" src="app.js"></script>
+
+</body>
+</html>
+<select id="category">
+  <option value="phones">Phones</option>
+  <option value="clothes">Clothes</option>
+  <option value="electronics">Electronics</option>
+  <option value="cars">Cars</option>
+</select>
